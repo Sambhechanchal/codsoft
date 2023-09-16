@@ -146,3 +146,211 @@
 </footer>
 </body>
 </html>
+/*  Header Section */
+*{
+    margin: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: border-box;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: lightpink;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.abt{
+    font-size: 20px;
+    font-family: ALGERIAN;
+}
+.abt:hover{
+    font-size: 30px;
+}
+.logo{
+    background-image: url("images.jpg");
+    height: 120px;
+    width:240px; 
+    background-size: cover;
+}
+ .logo:hover{
+      height: 130px;
+ }
+.nm{
+    color: green;
+    font-size: 40px;
+    font-family: ALGERIAN;
+    padding-left: 40px;
+    text-shadow: 5px 0px 10px rgba(200, 243, 45, 0.571);
+}
+.nm:hover{
+    font-size: 45px;
+}
+.profile{
+    font-size: 20px;
+    font-family: ALGERIAN; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+     }
+     .profile:hover{
+        font-size: 30px;
+     }
+.logo2{
+    font-size:30px ;
+    padding-top: 10px;
+    transition-property: transform;
+    transition-duration: 4s;
+}
+.logo2:hover{
+    font-size:40px ;
+}
+
+.logout{
+    font-size: 20px;
+    font-family: ALGERIAN; 
+}
+.logout:hover{
+    font-size:30px ;
+}
+
+/*tagline  */
+.tagline{
+    padding-top: 10px;
+    font-size:30px;
+    font-weight: bold;
+    font-family:monotype corsiva;
+   text-align: center;
+   color:black;
+   border: 2px solid white;
+   box-shadow: 3px 0px 6px greenyellow
+}
+.tagline:hover{
+    border: 2px solid rgb(30, 138, 240);
+    font-size: 40px;
+}
+
+/* About Section */
+
+.About{
+    padding-top: 100px;
+    height: 450px;
+    width: 100%; 
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+.line{
+    color:black;
+    font-weight: 600;
+    font-size: 30px;
+    font-family: monotype corsiva;
+    padding-top: 90px;
+}
+
+.img{
+     height: 430px;
+     width: 400px;
+     border: 3px solid black;
+     box-shadow: 15px 10px 10px greenyellow;
+    }
+
+.img:hover{
+    height: 450px;
+    border:3px solid skyblue;
+}
+
+/* Skill and Area of expertise */
+.heading ,h2{
+    padding-top: 20px;
+    font-family: ALGERIAN;
+   text-shadow: 2px 0px 8px grey;
+}
+.skill{
+    padding-top: 20px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.skill2{
+    padding-top: 20px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.skill3{
+    padding-top: 20px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box{
+    height: 450px;
+    width: 450px;
+    border: 2px solid black; 
+    box-shadow:7px 0px 8px greenyellow;  ;
+}
+
+/* Project Section */
+
+.Project1{
+    padding-top: 20px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Project2{
+    padding-top: 20px;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Project3{
+    padding-top: 20px;
+    height: 500px;
+    margin-left: 22px;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content:left;
+}
+.pro{
+    height: 450px;
+    width: 450px;
+    border: 2px solid black; 
+    box-shadow:7px 0px 8px greenyellow; 
+    overflow:auto;
+}
+p{
+    font-size: 20px;
+    color: rgb(23, 154, 242);
+    font-family:'Times New Roman', Times, serif;
+}
+/* Resume Section */
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(23, 154, 242);
+}
+/* Footer Section */
+
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(181, 182, 184);
+    
+}
+.copy{
+    text-align: center;
+}s
